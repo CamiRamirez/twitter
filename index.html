@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width">
+  <meta charset="UTF-8">
+  <title>Twitter</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Sección header -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 barralogo">
+          <h1>Twitter
+            <img src="../twitter/assets/img/twitter_PNG34.png" alt="iconotwitter" id="iconotwitter"> </h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="center">
+    <div class="container">
+      <!-- AQUI VA EL INPUT DE TWEETS -->
+      <div class="row message">
+        <div class="col-12">
+          <textarea class="txt" id="tweet" placeholder="Añade un comentario..."></textarea>
+        </div>
+      </div>
+      <div class="row message">
+        <div class="col-12">
+          <button type="submit" id="btn">
+            <i></i>Tweet</button>
+        </div>
+      </div>
+      <!-- aqui termina el input de tweets -->
+
+      <!-- contenedor comentarios -->
+      <div class="row divTweets">
+        <div class="col-4"></div>
+        <div class="col-4" id="containerMessage"></div>
+        <div class="col-4"></div>
+        <!-- aca iran mis comentarios -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Script Files -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>

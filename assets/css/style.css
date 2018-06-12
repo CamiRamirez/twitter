@@ -1,0 +1,42 @@
+body{
+  background-image: url(../img/HD-Twitter-Background.png);
+  width: 100%;
+}
+.barralogo{
+  width: 100%;
+  background-color: #00acee;
+  color: white;
+  text-align: center;
+}
+
+#iconotwitter {
+  width: 1.5em;
+}
+#tweet {
+  width: 40em;
+  height: 10em;
+}
+#btn{
+  background-color: #00acee;
+  cursor: pointer;
+  color: white;
+  width: 7em;
+  height: 2em;
+  text-align: center;
+}
+
+.message{
+  text-align: center;
+}
+
+#containerMessage div{
+  text-align: left;
+  background-color: #FFF;
+  padding: 2em 2em;
+  width: 25em;
+  outline: #00acee 1px solid;
+}
+
+.divTweets{
+  text-align: center;
+}
